@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-height: 100vh;
+    max-height: 95vh;
     margin: 0px;
     background-color: gray;
 }
@@ -46,11 +46,11 @@ h1 {
 }
 
 .fa-play {
-    color: greenyellow;
+    color: white;
 }
 
 .fa-stop {
-    color: red;
+    color:white;
 }
 
 .fa-pause {
