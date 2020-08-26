@@ -3,4 +3,4 @@
 
 Hosted Link:
  
-osamaameer-jsprojects.surge.sh
+http://osamaameer-jsprojects.surge.sh/
