@@ -1,7 +1,6 @@
 # JavaScript-Projects
 
 
-Website Link:
+Hosted Link:
  
-http://myjs-projects.surge.sh
-
+http://osamaameer-jsprojects.surge.sh/
