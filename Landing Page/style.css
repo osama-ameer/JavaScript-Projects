@@ -15,6 +15,15 @@ body{
     margin: 0;
 }
 
+body.show-nav{
+    transform: translateX(200px);
+    transition: transform 0.5s ease;
+}
+
+.modal-container.show-modal{
+    display: block;
+}
+
 nav{
     background-color: var(--primary-color);
     color: white;
@@ -136,6 +145,9 @@ button:focus{
     transform: translate(-50%,-50%);
     max-width: 100%;
     width: 400px;
+
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
 }
 
 .modal-header{
@@ -176,4 +188,15 @@ button:focus{
     top: 0;
     right: 0;
     color: white;
+}
+
+@keyframes modalopen{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 5;
+
+    }
 }
