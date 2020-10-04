@@ -13,7 +13,7 @@ function calculate(){
     const currOneCode = curr_one.value;
     const currTwoCode = curr_two.value;
     
-    fetch(`https://v6.exchangerate-api.com/v6/31413d6a427e175c5301d1b0/latest/${currOneCode}`)
+    fetch(`https://v6.exchangerate-api.com/v6/245896f307441d7f5dc3521b/latest/${currOneCode}`)
     .then( res => res.json())
     .then( data =>{
         //get exchange rates from API
@@ -24,6 +24,7 @@ function calculate(){
 
             //apply conversion rate and update amount of currency two
             curr_two_amount.value = (curr_one_amount.value * exchangerate).toFixed(2);
+        
 
 
     });
