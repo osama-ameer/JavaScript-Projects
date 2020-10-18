@@ -80,7 +80,7 @@ body{
 .action-btn{
     background-color: white;
     border: 0;
-    color: rgb(70, 69, 69);
+    color: rgb(51, 50, 50);
     font-size: 24px;
     cursor: pointer;
     padding: 10px;
@@ -89,7 +89,7 @@ body{
 }
 
 .action-btn.action-btn-big{
-    color:  rgb(41, 41, 41);
+    color:  rgb(59, 57, 57);
     font-size: 36px;
 }
 
@@ -106,7 +106,7 @@ body{
     padding: 10px 10px 10px 150px;
     width: calc(100% - 40px);
     transform: translateY(0%);
-    transition: tranform 0.5s ease-in, opacity 0.5s ease-in;
+    transition: transform 0.5s ease-in, opacity 0.5s ease-in;
     opacity: 0;
     z-index: 0;
 
