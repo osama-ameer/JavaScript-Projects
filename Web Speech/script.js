@@ -62,7 +62,7 @@ const data = [
 
 //array for all web speeches api
 
-// let voices = [];
+ let voicesBackup = [];
 
 //create a box for each object in the data array
 
